@@ -39,9 +39,12 @@ var b2 = true
 var or = b1 || b2
 var and = b1 && b2
 
-let name = "Tiago"
+let name = "Martín"
 let greetings = "Hola! \(name). Estás en el curso de Swift"
 print(greetings)
 
 // "Numero de caracteres en el nombre: 5"
 // Tip: .count en strings
+// Tarea
+let characterCount = name.count
+print("Numero de caracteres en el nombre de \(name), es de: \(characterCount) caracteres")
